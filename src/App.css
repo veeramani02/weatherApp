@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;   
+}
+body{
+    background-color: #2f3640;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width:350px;
+    padding:20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.input-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    border:2px solid #70e6f3;
+    border-radius:10px ;
+    overflow: hidden;
+}
+.input{
+    flex:1;
+    height:30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding:10px;
+}
+.search{
+    padding: 10px;
+    height:30px;
+    cursor: pointer;
+    margin-top:5px ;
+}
+.img{
+    text-align: center;
+    height:150px;
+    margin-bottom: 10px;
+}
+.img img{
+    width: 160px;
+    height:160px;
+}
+.temp,.city,.country{
+    margin-top: 5px;
+    font-size: 35px;
+    color:#333;
+    text-transform:uppercase ;
+    text-align: center;
+}
+.temp{
+    font-weight: 500;
+}
+.city{
+    color:#ffbc00;
+    font-weight: 400;
+    font-size: 40px;
+}
+.country{
+    font-size: 18px;
+    color:#888;
+    font-weight: 500;
+}
+.coordinates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.coordinates div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.coordinates div span{
+    font-size: 14px;
+}
+.humidity-percent,.wind-percent,
+.coordinates div span :nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color:#666;
+    padding-top: 5px;
+}
+.icon{
+    width: 100px;
+    height:100px;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.element{
+    text-align: center;
+}
+.text{
+    font-size: 18px;
+    color:#888;
+}
